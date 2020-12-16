@@ -1,0 +1,153 @@
+/* 顶部
+---------------------------------------------------------------- */
+.top{
+   height:30px;
+   background-color:#f3f3f3;
+}
+.top .box{
+  line-height:30px;
+}
+.top .box .topleft{
+  float: left;
+}
+.top .box .topright{
+  float: right;
+}
+.top .box .topright .topright1{
+  float: left;
+  padding:0 5px;
+  margin-right: 16px;
+  box-sizing: border-box;
+}
+.top .box .topright .topright1:hover{
+  background-color: #fff;
+}
+.icon-gouwuche{
+  font-size: 12px;
+}
+/* 头部搜索
+---------------------------------------------------------------- */
+.header{
+background-color:#fff;
+border-bottom:1px solid #52c41a;
+}
+.header .logo{
+  float: left;
+  height: 110px;
+  line-height: 110px;
+}
+.header .logo a{
+ font-size: 30px;
+ font-weight: bold;
+ color: #52c41a;
+}
+.header .headright{
+  height: 110px;
+  float: right;
+}
+.headright .right-lf{
+  margin-top: 18px;
+}
+.right-lf .right-t{
+  float: left;
+  width: 414px;
+  height: 42px;
+  border: 2px solid #52c41a;
+  outline: none;
+  padding-left: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.right-lf .right-a{
+  float: left;
+  width: 100px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  background-color:#52c41a;
+}
+.right-lf a{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+.right-lf a:hover{
+  opacity: 0.6;
+}
+.headright .bot-list{
+  margin-top: 22px;
+}
+.bot-list .bot-listr{
+  float: left;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-right:41px;
+}
+.bot-list .bot-listr .list1{
+  color: #52c41a;
+}
+/* 内容区域
+---------------------------------------------------------------- */
+
+/* 底部导航
+---------------------------------------------------------------- */
+.bottom{
+  height:248px;
+  background-color:#2f2f2f;
+}
+.bottom .box{
+  height:248px;
+}
+.bottom .box .bot-top{
+  height: 146px;
+  border-bottom: 1px solid rgba(255, 255, 255,0.1);
+  line-height:146px; 
+}
+.bottom .box .bot-top span{
+  display:inline-block;
+  height: 36px;
+  line-height: 36px;
+  font-size: 18px;
+  color: #fff;
+}
+.bottom .box .bot-top .bt1{
+  margin-right: 210px;
+}
+.bottom .box .bot-top .bt2{
+  margin-right: 210px;
+}
+.bottom .box .bot-top i{
+  font-size: 36px;
+  vertical-align: middle;
+}
+.bottom .box .bot-top .a1{
+padding-right: 16px;
+padding-left:40px;
+}
+.bottom .box .bot-top .a2{
+  padding-right: 16px;
+}
+.bottom .box .bot-top .a3{
+    padding-right: 16px;
+}
+.bottom .box .bot-bott{
+  height: 102px;
+  text-align: center;
+ 
+}
+.bottom .box .bot-bott1{
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+.bottom .box .bot-bott1 a{
+  color: #888;
+}
+.bottom .box .bot-bott1 .aju1{
+ margin-right:22px;
+}
+.bottom .box .bot-bott1 .aju2{
+  margin-left:22px;
+ }
+.bottom .box .bot-bott2{
+  color: #888;
+}
