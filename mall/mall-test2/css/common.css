@@ -1,0 +1,76 @@
+body{
+font-size: 12px;
+background-color: #eee;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+color: #1890ff;;
+}
+.box{
+   width: 1080px;
+   margin: 0 auto;
+}
+
+/* 清除浮动
+---------------------------------------------------------------- */
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+    height: 0px;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom:1;
+}
+
+.col-1{
+    width: 208px;
+}
+.col-4{
+    width: 862px;
+}
+.jianju{
+    margin-right: 10px;
+}
+.bes-ri .bes-ri1{
+    float: left;
+    padding: 15px 10px;
+    background-color:#fff;
+    box-sizing: border-box;
+    height: 300px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+.bes-ri .bes-ri1:hover{
+    box-shadow: 2px 3px 3px #ccc;
+  }
+.bes-ri .bes-ri1 img{
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+  }
+.bes-ri .bes-ri1 .bes-ri1name{
+    width: 180px;
+    color: #333;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+  }
+.bes-ri .bes-ri1 .bes-ri1money{
+    float: left;
+    color: red;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+.bes-ri .bes-ri1 .bes-ri1number{
+    float: right;
+    color:#8f8f9f;
+    margin-right: 10px;
+  }

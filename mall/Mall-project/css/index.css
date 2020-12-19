@@ -86,61 +86,144 @@ border-bottom:1px solid #52c41a;
 .bot-list .bot-listr .list1{
   color: #52c41a;
 }
-/* 内容区域
+/* 焦点
 ---------------------------------------------------------------- */
-.cont{
-  height:800px;
+.focus .box{
+   margin-top: 30px;
+   margin-bottom: 40px;
 }
-.cont .box{
-height:800px;
-}
-.cont .box .ctop{
-  height:76px;
-  line-height:76px;
-  font-size:14px;
-}
-.cont .box .cbott .contleft{
+.focus-le{
+  height: 440px;
   float: left;
+  background-color: #fff;
 }
-.cont .box .cbott .conletop{
-  background-color: #333;
+.focus-le .parent-le{
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+.focus-le .parent-le .parent-le-itmes{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding:0 10px;
+  box-sizing: border-box;
+}
+.focus-le .parent-le .parent-le-itmes:hover{
+  background-color: #ccc;
+}
+.focus-le .parent-le .parent-le-itmes .itme-a{
+ font-size: 14px;
+ margin-right: 4px;
+}
+.focus-ri{
+  float:right;
+  position: relative;
+  height: 440px;
+  background-color: blue;
+}
+.focus-ri .tupi{
+  position: relative;
+}
+.focus-ri .tupi .tupi-itmes{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.focus-ri .tupi .tupi-itmes img{
+  width: 862px;
+  height: 440px;
+}
+.focus-ri .dingwei{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
-  line-height:38px;
+  font-size:50px;
+  font-weight:lighter;
+  color: #007aff;
 }
-.cont .box .cbott .conletop .she1{
-  font-size: 17px;
+.focus-ri .dingwei-left{
+  position: absolute;
+  top:50%;
+  left: 0;
+  margin-top: -25px;
+ }
+.focus-ri .dingwei-right{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -25px;
+}
+.focus-ri .fbot{
+  position: absolute;
+  bottom: 13px;
+  left: 50%;
+  margin-left: -45px;
+}
+.focus-ri .fbot .fbot-itm{
+  float: left;
+  width: 20px;
+  height:20px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background-color: rgba(0, 0,0,0.3);
+  cursor: pointer;
+}
+.focus-ri .fbot .fl3{
+  background-color: #52c41a;
+}
+/* 热销
+---------------------------------------------------------------- */
+.best .box{
+margin-bottom: 40px;
+}
+.box .bes-le{
+   float: left;
+   height: 300px;
+   text-align: center;
+   background-image: linear-gradient(#007aff,#52c41a);
+   cursor: pointer;
+}
+.box .bes-le1{
+  font-size:38px;
   color: #fff;
-  font-weight: bold;
+  margin-top:98px;
+  margin-bottom: 28px;
 }
-.cont .box .cbott .conletop .she2{
-  font-size: 17px;
+.box .bes-le2{
+  font-size:32px;
   color: #fff;
 }
-.cont .box .cbott .conlebot{
-  height:686px;
-  border-left:1px solid #d9d9d9;
-  border-right:1px solid #d9d9d9 ;
-}
-.cont .box .cbott .conlist li{
-   height: 30px;
-   line-height: 30px;
-   padding-left: 27px;
-   box-sizing: border-box;
-   color: #a3a3a3;
-   font-weight: lighter;
-}
-.cont .box .cbott .conlist a{
- font-size: 15px;
-}
-.cont .box .cbott .contright{
+.box .bes-ri{
   float: right;
-  background-color: red;
-  height:724px;
 }
+.box .bes-ri .bes-ri1:last-child{
+  margin-right: 0; 
+}
+/* 楼层
+---------------------------------------------------------------- */
+.floor .box .afloor{
+  margin-bottom: 40px;
+}
+.floor .box .afloor .boxshang{
+  margin-bottom: 14px;
+  border-bottom:1px solid #52c41a;
+}
+.floor .box .boxshang a{
+  font-size: 18px;
+  color: #52c41a;
+}
+.box .bes-ri .bes-ri1:nth-child(5n){
+  margin-right: 0;
+}
+/* .floor .box .a2{
+  margin-top:10px; */
 /* 底部导航
 ---------------------------------------------------------------- */
 .bottom{
-  height:248px;
+  /* height:248px; */
   background-color:#2f2f2f;
 }
 .bottom .box{
@@ -199,4 +282,3 @@ padding-left:40px;
 .bottom .box .bot-bott2{
   color: #888;
 }
-
